@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+
+    "jsx": "preserve",
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "noEmit": true,
+
+    "lib": ["ES2022", "DOM"],
+
+    "baseUrl": ".",
+    // "rootDir": "./src",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 60,
+      "createdAt": "2023-01-01T00:10:00.000Z"
+    },
+    {
+      "id": 3,
+      "description": "Curso de programação",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2023-01-01T00:10:00.000Z"
+    },
+    {
+      "description": "Cartão de credito",
+      "price": 2000,
+      "category": "Fatura",
+      "type": "outcome",
+      "createdAt": "2024-02-19T18:51:39.114Z",
+      "id": 4
+    },
+    {
+      "description": "Pagamento Dia 1",
+      "price": 1900,
+      "category": "Salario",
+      "type": "income",
+      "createdAt": "2024-02-19T19:03:13.511Z",
+      "id": 5
+    }
+  ]
+}
