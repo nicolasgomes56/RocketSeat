@@ -1,0 +1,6 @@
+@Petfolio.API_HostAddress = https://localhost:5183
+
+POST {{Petfolio.API_HostAddress}}/api/Pet
+Accept: application/json
+
+###
